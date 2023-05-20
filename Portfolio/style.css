@@ -11,9 +11,9 @@ header {
   nav .logo-container {
     max-width: 130px;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 250px) {
     nav .logo-container {
-      max-width: 250px;
+      max-width: 768px;
     }
   }
   nav .logo-container a img {

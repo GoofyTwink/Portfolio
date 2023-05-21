@@ -1,6 +1,6 @@
 /*Header navigation thing*/
 header {
-    background-color: #0C1733;
+    background-color: hsl(170, 83%, 21%);
   }
   nav {
     max-width: 1200px;
@@ -11,9 +11,9 @@ header {
   nav .logo-container {
     max-width: 130px;
   }
-  @media (min-width: 250px) {
+  @media (min-width: 768px) {
     nav .logo-container {
-      max-width: 768px;
+      max-width: 250px;
     }
   }
   nav .logo-container a img {
